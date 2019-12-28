@@ -50,7 +50,7 @@ Request = "";
   WiFi.disconnect();
   delay(3000);
   Serial.println("START");
-   WiFi.begin("mik!L","qwertyuiopz");
+   WiFi.begin(" your hotspot name "," your passwd ");
   while ((!(WiFi.status() == WL_CONNECTED))){
     delay(300);
     Serial.print("..");
